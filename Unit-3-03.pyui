@@ -1,0 +1,106 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{47, 15}, {381, 64}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "8CCD80F0-EECA-4D5C-8281-F67AFF30EAFD",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Choose between rock, paper, or scissors",
+          "name" : "rock_paper_scissors_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{17, 129}, {124, 45}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "rock_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "ROCK",
+          "uuid" : "A5D68119-91B1-4FF2-AC4B-90AF08BE2450",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "rock_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{173, 129}, {117, 45}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "paper_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "PAPER",
+          "uuid" : "EBB56AC1-AF0A-4135-AFF0-12AAF4A8CD92",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "paper_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{322, 129}, {133, 45}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "scissors_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "SCISSORS",
+          "uuid" : "9A6C2014-7C82-450A-BDFE-D73F32EDF584",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "scissors_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{47, 239}, {381, 75}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "08439240-4FC6-4D99-BE5E-FDE211A7A334",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "output_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
